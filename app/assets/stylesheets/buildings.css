@@ -1,0 +1,59 @@
+.buildings-root {
+  padding: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #222;
+}
+
+.buildings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.buildings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.building-card {
+  border: 1px solid #e0e6ef; /* clearer border */
+  padding: 12px;
+  margin: 12px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(13,24,40,0.04);
+}
+
+.building-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.building-meta {
+  font-size: 14px;
+  color: #444;
+}
+
+.custom-fields {
+  margin-top: 8px;
+  display: grid;
+  gap: 6px;
+}
+
+.client-name {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.pagination { display:flex; gap:8px; align-items:center; margin-top:12px }
+
+.form-card { border: 1px solid #f1f1f1; padding: 12px; border-radius: 8px; background:#fafafa }
+.form-row { display:flex; gap:8px; margin-bottom:8px }
+.form-row input, .form-row select { padding:6px 8px; border:1px solid #ddd; border-radius:4px }
+.cf-row { display:flex; gap:8px; align-items:center }
+.cf-row input, .cf-row select { padding:6px 8px; border:1px solid #ddd; border-radius:4px }
+.btn { padding:6px 10px; border-radius:4px; border:1px solid #cfcfcf; background:#fff; cursor:pointer }
+.btn:disabled { opacity:0.6; cursor:default }
